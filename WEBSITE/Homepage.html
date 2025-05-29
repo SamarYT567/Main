@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sam Plays - Home</title>
+  <link rel="icon" type="image/png" href="https://i2.imageban.ru/out/2025/04/12/7f6f0dae06fbdc5d9a8b592f4a3ba931.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.cdnfonts.com/css/dungeon-depths" rel="stylesheet">
+  <link href="https://fonts.cdnfonts.com/css/globoface-gothic-display-2001" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div data-scroll-container>
+
+    <div id="loader">
+      <div class="loader-content">
+        <div class="spinner"></div>
+        <div class="loader-text">Loading...</div>
+      </div>
+    </div>
+
+    <header>
+        <h1>Sam Plays</h1>
+        <button id="menuBtn" title="Open Menu" aria-label="Open Menu">
+            <div class="menu-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </button>
+    </header>
+
+    <div id="sideMenu">
+        <div class="side-menu-content">
+            <div class="setting-section menu-nav-links">
+                 <a href="About.html" class="header-link">About</a>
+                 <a href="RecentVideos.html" class="header-link">Recent Videos</a>
+            </div>
+            <div class="setting-section cursor-options">
+                <h3>Cursor Style</h3>
+                <label>
+                    <input type="radio" name="cursor-style" value="default" checked> <span>Default</span>
+                </label>
+                <label>
+                    <input type="radio" name="cursor-style" value="crosshair"> <span>Crosshair</span>
+                </label>
+                <label>
+                    <input type="radio" name="cursor-style" value="pointer-dot"> <span>Pointer Dot</span>
+                </label>
+                <label>
+                    <input type="radio" name="cursor-style" value="animated-ring"> <span>Animated Ring</span>
+                </label>
+            </div>
+            <div class="setting-section">
+                <div class="reduce-motion-option">
+                    <h3 style="margin: 0; border: none; padding: 0;">Reduce Motion</h3>
+                    <label class="toggle-switch">
+                        <input type="checkbox" id="reduceMotionToggle">
+                        <span class="slider"></span>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <section class="first-page page-section" id="home" data-scroll-section>
+          <div class="hero-content">
+              <div class="image-wrapper" data-aos="fade-right" data-aos-delay="200">
+               <img src="https://i7.imageban.ru/out/2025/04/06/8ceada8ba819390324da470129adb577.jpg" alt="Gaming Setup">
+              </div>
+              <div class="hero-text-column" data-aos="fade-left" data-aos-delay="400">
+                  <h2 class="welcome-text">Welcome.</h2>
+                  <div class="experience-container" data-aos="fade-up" data-aos-delay="600">
+                      <p class="experience-text">Experience high-quality gaming content across titles like Minecraft, Subnautica and Grand Theft Auto.</p>
+                      <a href="https://www.youtube.com/channel/UCRLPBBL_LGFl14mIGaOMnxA?sub_confirmation=1" class="subscribe-button" target="_blank" rel="noopener noreferrer">Subscribe</a>
+                  </div>
+              </div>
+          </div>
+        </section>
+
+        <div class="section-stroke" data-scroll-section></div>
+
+        <section class="second-page page-section" id="quote" data-scroll-section>
+          <img src="https://i5.imageban.ru/out/2025/04/08/2896378b9be9960e625cccabbd9877bd.png" alt="Quote Image" data-aos="zoom-in">
+          <p class="quote-text" data-aos="fade-up" data-aos-delay="200">"Sam Plays is a very good content creator. His gaming videos are engaging and entertaining. Keep up the great work, Sam Plays! Thank you for providing such awesome videos. I hope he never quits."</p>
+        </section>
+
+        <div class="section-stroke" data-scroll-section></div>
+
+        <section class="third-page page-section" id="faq" data-scroll-section>
+          <h2 class="third-page-heading" data-aos="fade-down">Gaming Videos FAQs</h2>
+          <div class="faq-container" data-aos="fade-up" data-aos-delay="200">
+            <ul class="faq-list">
+              <li class="faq-item">
+                <button class="faq-question">
+                  <span class="question-text">What types of games do you play?</span> <span class="icon">❯</span>
+                </button>
+                <div class="faq-answer"><p>I play a wide variety of games, from popular AAA titles to indie games.</p></div>
+              </li>
+              <li class="faq-item">
+                <button class="faq-question">
+                  <span class="question-text">Do you create original gaming content?</span> <span class="icon">❯</span>
+                </button>
+                <div class="faq-answer"><p>Yes. I haven't and don't plan to copy anyone's content.</p></div>
+              </li>
+              <li class="faq-item">
+                <button class="faq-question">
+                  <span class="question-text">Can I request a specific game to be featured?</span> <span class="icon">❯</span>
+                </button>
+                <div class="faq-answer"><p>Absolutely! I welcome requests from my subscribers and consider featuring their favorite games in my upcoming videos.</p></div>
+              </li>
+              <li class="faq-item">
+                <button class="faq-question">
+                  <span class="question-text">Are your videos family-friendly?</span> <span class="icon">❯</span>
+                </button>
+                <div class="faq-answer"><p>Yes, my content is suitable for viewers of all ages, ensuring a fun and engaging experience for everyone in the family. But I still don't recommend watching with family.</p></div>
+              </li>
+              <li class="faq-item">
+                <button class="faq-question">
+                  <span class="question-text">How frequently do you upload new videos?</span> <span class="icon">❯</span>
+                </button>
+                <div class="faq-answer"><p>Since I am the only person who makes the content, I am not very consistent, but I mostly upload at least two videos in a month.</p></div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <div class="section-stroke" data-scroll-section></div>
+
+        <section class="fourth-page page-section" id="contact" data-scroll-section>
+            <div class="fourth-page-content-wrapper">
+                <div class="thanks-container" data-aos="fade-up">
+                  <h2 class="thanks-text">Thanks</h2>
+                  <p class="contact-text">Contact stgbussiness436@gmail.com for more info</p>
+                </div>
+                <button id="openFeedbackFormBtn" class="openFeedbackFormBtnStyle" data-aos="zoom-in" data-aos-delay="200">Contact / Feedback</button>
+            </div>
+        </section>
+    </main>
+
+    <div id="feedbackModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>Send Feedback</h2>
+            <form id="feedbackForm">
+                <div class="form-group">
+                    <label for="feedbackName">Name:</label>
+                    <input type="text" id="feedbackName" required>
+                </div>
+                <div class="form-group">
+                    <label for="feedbackEmail">Email:</label>
+                    <input type="email" id="feedbackEmail" required>
+                </div>
+                <div class="form-group">
+                    <label for="feedbackMessage">Message:</label>
+                    <textarea id="feedbackMessage" rows="5" required></textarea>
+                </div>
+                <button type="submit">Submit Feedback</button>
+                <div id="feedbackFormMessages" class="form-messages"></div>
+            </form>
+        </div>
+    </div>
+
+    <button id="scrollTopBtn" title="Go to top" aria-label="Scroll to top">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 4l8 8h-6v8h-4v-8H4l8-8z"/></svg>
+    </button>
+  </div>
+
+  <footer class="site-footer">
+      <p>&copy; 2025 Sam Plays. All rights reserved. <span id="appVersion"></span></p>
+  </footer>
+
+  <div id="custom-cursor" class="cursor-element"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+  <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script src="js/script.js" type="module"></script>
+</body>
+</html>
