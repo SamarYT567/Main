@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Sam Plays - About</title>
+    <link rel="icon" type="image/png" href="https://i2.imageban.ru/out/2025/04/12/7f6f0dae06fbdc5d9a8b592f4a3ba931.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/dungeon-depths" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/globoface-gothic-display-2001" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+    <div data-scroll-container>
+        <div id="loader">
+            <div class="loader-content">
+                <div class="spinner"></div>
+                <div class="loader-text">Loading, Please Wait</div>
+            </div>
+        </div>
+
+        <header>
+            <h1>Sam Plays</h1>
+            <button id="menuBtn" title="Open Menu" aria-label="Open Menu">
+                <div class="menu-icon">
+                    <span></span><span></span><span></span><span></span>
+                </div>
+            </button>
+        </header>
+        
+        <div id="sideMenu">
+            <div class="side-menu-content">
+                <div class="setting-section menu-nav-links">
+                     <a href="https://samplayshindi.github.io/Main/About.html" class="disabled">About</a>
+                     <a href="https://samplayshindi.github.io/Main/RecentVideos.html">Recent Videos</a>
+                </div>
+                <div class="setting-section cursor-options">
+                    <h3>Cursor Style</h3>
+                    <label><input type="radio" name="cursor-style" value="default" checked> <span>Default</span></label>
+                    <label><input type="radio" name="cursor-style" value="crosshair"> <span>Crosshair</span></label>
+                </div>
+                <div class="setting-section">
+                    <div class="reduce-motion-option">
+                        <h3 style="margin: 0; border: none; padding: 0;">Reduce Motion</h3>
+                        <label class="toggle-switch">
+                            <input type="checkbox" id="reduceMotionToggle">
+                            <span class="slider"></span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="fifth-page" data-scroll-section>
+            <a href="https://samplayshindi.github.io/Main/Home.html" class="go-back-btn" title="Go Back">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path d="M15.5 19.5a1 1 0 0 1-.7-1.7l5.3-5.3H3a1 1 0 0 1 0-2h17.1l-5.3-5.3a1 1 0 0 1 1.4-1.4l7 7a1 1 0 0 1 0 1.4l-7 7a1 1 0 0 1-.7.3z"/>
+                </svg>
+            </a>
+
+            <div class="about-content-container">
+                <h2 class="about-heading" data-scroll data-scroll-class="is-inview" data-scroll-delay="0.1">About me</h2>
+                <p class="about-paragraph" data-scroll data-scroll-class="is-inview" data-scroll-delay="0.2">
+                    Hey there! I'm Samar, the creator behind Sam Plays, where I dive into games like Minecraft, Would You Rather, and PUBG. It all started on a random day when a simple question popped into my head: "How do people upload videos to their channel?" That curiosity sparked something big—and just like that, Sam Plays was born. Now, I'm here to share my gaming adventures, have fun, and connect with awesome people like you. Hit that subscribe button and join the journey!
+                </p>
+                <div class="social-links-container" data-scroll data-scroll-class="is-inview" data-scroll-delay="0.3">
+                    <a href="https://www.youtube.com/channel/UCRLPBBL_LGFl14mIGaOMnxA" target="_blank" rel="noopener noreferrer" class="social-icon" title="YouTube Channel">
+                        <img src="https://i2.imageban.ru/out/2025/04/14/dcdcd08d76b1a05043c425b84780f448.png" alt="YouTube" onerror="this.style.display='none'">
+                    </a>
+                    <a href="https://www.instagram.com/the.silent.kidd/" target="_blank" rel="noopener noreferrer" class="social-icon" title="Instagram">
+                        <img src="https://i8.imageban.ru/out/2025/04/14/32c5cce9e8d2aca0ac20dbb24d314814.png" alt="Instagram" onerror="this.style.display='none'">
+                    </a>
+                    <a href="https://x.com/SamPlaysHindi" target="_blank" rel="noopener noreferrer" class="social-icon twitter-icon" title="X (Twitter)">
+                        <img src="https://i1.imageban.ru/out/2025/04/14/716a4795e25646856d53bb80e4f0c63d.png" alt="X" onerror="this.style.display='none'">
+                    </a>
+                    <a href="https://discord.gg/shM9m47vBa" target="_blank" rel="noopener noreferrer" class="social-icon" title="Discord Server">
+                        <img src="https://i7.imageban.ru/out/2025/04/14/ba01657b172eb4a2cbe3d9a23a89e639.png" alt="Discord" onerror="this.style.display='none'">
+                    </a>
+                    <a href="https://github.com/Samplayshindi/Main" target="_blank" rel="noopener noreferrer" class="social-icon" title="GitHub">
+                        <img src="https://i4.imageban.ru/out/2025/05/24/9bf4590e4193d7ef381e1bb29f02deb5.png" alt="GitHub" onerror="this.style.display='none'">
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div> <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+    <script src="about.js"></script>
+</body>
+</html>
